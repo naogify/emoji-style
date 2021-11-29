@@ -1,44 +1,29 @@
-id: poi-r10-r24
+id: poi-convenience
 type: symbol
 source: geolonia
 source-layer: poi
-minzoom: 13
+minzoom: 15
 filter:
   - all
   - - '=='
     - $type
     - Point
-  - - <
-    - rank
-    - 25
   - - has
     - name
   - - '!='
     - disputed
     - japan_northern_territories
-  - - '>='
-    - rank
-    - 10
+  - - '=='
+    - class
+    - convenience
 layout:
   text-padding: 2
   text-font:
     - Noto Sans Regular
   text-anchor: top
   icon-anchor: bottom
-  icon-image:
-    - coalesce
-    - - image
-      - - concat
-        - - get
-          - class
-        - '-JP'
-    - - image
-      - - concat
-        - - get
-          - class
-        - ''
-    - - image
-      - circle
+  icon-image: 1f3ea
+  icon-size: 0.8
   text-field: '{name}'
   text-offset:
     - 0

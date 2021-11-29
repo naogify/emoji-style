@@ -1,47 +1,36 @@
-id: poi-r25
+id: poi-police
 type: symbol
 source: geolonia
 source-layer: poi
-minzoom: 16
+minzoom: 13
 filter:
   - all
   - - '=='
     - $type
     - Point
-  - - '>='
-    - rank
-    - 25
   - - has
     - name
   - - '!='
     - disputed
     - japan_northern_territories
+  - - '=='
+    - class
+    - police
 layout:
   text-padding: 2
   text-font:
     - Noto Sans Regular
   text-anchor: top
   icon-anchor: bottom
-  icon-image:
-    - coalesce
-    - - image
-      - - concat
-        - - get
-          - class
-        - '-JP'
-    - - image
-      - - concat
-        - - get
-          - class
-        - ''
-    - - image
-      - circle
+  icon-image: 1f46e
+  icon-size: 0.8
   text-field: '{name}'
   text-offset:
     - 0
     - 0.3
   text-size: 12
   text-max-width: 9
+  visibility: visible
 paint:
   text-halo-blur: 0.5
   text-color: '#666'

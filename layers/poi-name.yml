@@ -1,4 +1,4 @@
-id: poi-r0-r9
+id: poi-name
 type: symbol
 source: geolonia
 source-layer: poi
@@ -8,9 +8,6 @@ filter:
   - - '=='
     - $type
     - Point
-  - - <
-    - rank
-    - 9
   - - has
     - name
   - - '!='
@@ -22,20 +19,6 @@ layout:
     - Noto Sans Regular
   text-anchor: top
   icon-anchor: bottom
-  icon-image:
-    - coalesce
-    - - image
-      - - concat
-        - - get
-          - class
-        - '-JP'
-    - - image
-      - - concat
-        - - get
-          - class
-        - ''
-    - - image
-      - circle
   text-field: '{name}'
   text-offset:
     - 0

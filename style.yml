@@ -7,6 +7,10 @@ $background: rgba(254, 254, 254, 1)
 version: 8
 name: $name
 metadata: {}
+center:
+  - 139.77684
+  - 35.6815
+zoom: 14.5
 sources:
   oceanus:
     type: vector
@@ -121,9 +125,18 @@ layers:
   - !!inc/file layers/water-name-other.yml
   - !!inc/file layers/building.yml
   - !!inc/file layers/building-3d.yml
-  - !!inc/file layers/poi-r25.yml
-  - !!inc/file layers/poi-r10-r24.yml
-  - !!inc/file layers/poi-r0-r9.yml
+  - !!inc/file layers/poi-name.yml
+  - !!inc/file layers/poi-bus.yml
+  - !!inc/file layers/poi-convenience.yml
+  - !!inc/file layers/poi-restaurant.yml
+  - !!inc/file layers/poi-hospital.yml
+  - !!inc/file layers/poi-school.yml
+  - !!inc/file layers/poi-bank.yml
+  - !!inc/file layers/poi-police.yml
+  - !!inc/file layers/poi-cafe.yml
+  - !!inc/file layers/poi-bar.yml
+  - !!inc/file layers/poi-library.yml
+  - !!inc/file layers/poi-park.yml
   - !!inc/file layers/poi-railway.yml
   - !!inc/file layers/railway-name.yml
   - !!inc/file layers/road_oneway.yml
