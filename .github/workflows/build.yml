@@ -22,11 +22,6 @@ jobs:
           npm run build
           echo "charites" > .gitignore
 
-      - name: Build Icons
-        run: |
-          cd $GITHUB_WORKSPACE
-          node .github/workflows/icon-build.js $GITHUB_WORKSPACE
-
       - name: Set index.html for preview
         run: |
           cd $GITHUB_WORKSPACE
