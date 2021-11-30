@@ -22,7 +22,7 @@ layout:
     - Noto Sans Regular
   text-anchor: top
   icon-anchor: bottom
-  icon-image: 1f3ea
+  icon-image: 🏪
   icon-size: 0.8
   text-field: '{name}'
   text-offset:
