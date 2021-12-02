@@ -27,7 +27,10 @@
 icon-image: 🚌
 ```
 
-Windows では使用できる絵文字に制限があります。ご了承ください。
+Windows では指定できる絵文字に制限があります。ご了承ください。  
+
+## 参考
+
 twemoji-sprites の詳細については以下の URL をご参考ください。
 
 - https://github.com/naogify/twemoji-sprites
