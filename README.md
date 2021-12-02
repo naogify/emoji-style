@@ -17,7 +17,7 @@
 
 ## 絵文字のカスタマイズ
 
-`layers/poi-*` というファイルで各地物のアイコンを指定しています。  
+`layers/poi-<地物名>.yml` というファイルで各地物のアイコンを指定しています。  
 例：https://github.com/naogify/emoji-style/blob/main/layers/poi-bus.yml#L25 以下をお好きな絵文字に変更しコミットして下さい。
 
 ```
